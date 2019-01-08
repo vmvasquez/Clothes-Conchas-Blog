@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*
+  Clothes and Conchas Blog
+   Filename: contact_layout.css
+   Vanessa Vasquez
+   11/28/18
+
+   This file contains the layout styles used in the ct_start.html page.
+
+*/
+
+html {
+  background-image: url(file:///Users/vanessa/Desktop/cc_site/pictures/taco-gray-small.gif);
+  background-repeat: repeat;
+
+}
+
+/* Body styles  */
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 999px;
+	min-width: 640px;
+  background-color: rgb(250, 250, 245);
+  border-left: 1.5px solid gray;
+  border-right: 1.5px solid gray;
+
+}
+
+h1 {
+  text-align: center;
+  color: #FFC0E2;
+  font-family: 'Glegoo', serif;
+  font-size: 45px;
+}
+
+/* form styles */
+
+div#email {
+  font-family: 'Glegoo', serif;
+  font-weight: bold;
+  text-align: center;
+  color: #FFC0E2;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+
+
+}
+
+
+fieldset#survey {
+  font-family: 'PT Sans Narrow', sans-serif;
+  border: 2px solid #FFC0E2;
+  margin: auto;
+  width: 50%;
+
+
+}
+
+legend.legend {
+  text-align: center;
+}
+
+/* nav styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D1D1D1;
+    border: 1.5px solid gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F9F8F3;
+    text-align: center;
+    padding: 9px 40px;
+    text-decoration: underline;
+    font-family: 'Glegoo', serif;
+}
+
+/* button styles  */
+div.button {
+  text-align: center;
+}
+
+/* Footer  */
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 9%;
+  border-top: 2px solid #D1D1D1;
+  clear: both;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+div#social {
+ text-align:right;
+ font-family: 'Glegoo', serif;
+ padding-right: 15px;
+ padding-top: 10px;
+ padding-bottom: 20px;
+
+}
